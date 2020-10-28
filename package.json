@@ -1,0 +1,13 @@
+{
+  "name": "Javascript_Refresh",
+  "version": "1.0.0",
+  "description": "Javascript refresh exercises",
+  "main": "index.js",
+  "author": "DPD",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-react": "^7.21.4"
+  }
+}

@@ -1,0 +1,39 @@
+.questionsAnswer{
+  color: black;
+  width: 50%;
+  border:1px solid black;
+  height: 20%;
+  margin: auto;
+  margin-top: 10%;
+}
+.questionsAnswer h1{
+  margin-left: 2%;
+}
+.questionsAnswer h2{
+  margin-left: 2%;
+}
+.questionsAnswer li{
+  margin-left: 2%;
+}
+.questionsAnswer p{
+  margin-left: 5%;
+}
+
+.problemForm{
+  margin-left: 5%;
+  width:100%;
+  height: 10%;
+}
+
+
+.problemForm input{
+  margin-left: 5%;
+  margin-top: 1%;
+margin-bottom: 1%;  
+}
+
+.problemForm label{
+  margin-bottom: 2%;
+  
+}
+

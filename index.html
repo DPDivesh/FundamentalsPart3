@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fundamentals Part 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class='questionsAnswer'>
+    <h1 class='title'>Fundamentals Part 3 </h1>
+    <h1>Questions</h1>
+    <ol>
+      <li>Write a function called add7 that takes one number and returns that number + 7.
+      </li>
+      <li>
+        Write a function called multiply that takes 2 numbers and returns their product.
+      </li>
+      <li>
+        Write a function called capitalize that takes a string and returns that string with only the first letter
+        capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or Both.
+      </li>
+      <li>Write a function called lastLetter that takes a string and returns the very last letter of that string:
+      </li>
+      <ol>
+        <li>lastLetter("abcd") should return "d"
+        </li>
+      </ol>
+    </ol>
+
+    <h2>Problem 1</h2>
+      <div class="problemForm" >
+        <label>Enter Number to add 7 to:</label>
+        <br>
+      <input type="text" name="numberInputValue" id="numberInput" >
+      <br>
+      <input type="submit" value="submit" onclick="add7()" >
+      <p id="answer1"> </p>
+    </div>
+
+    <h2>Problem 2</h2>
+    <div class="problemForm" >
+      <label>First Number:</label>
+      <br>
+      <input type="text" name="firstNumber" id="firstNumber"  >
+      <br>
+      <label>Second Number:</label>
+      <br>
+      <input type="text" name="secondNumber" id="secondNumber" >
+      <br>
+      <input type="submit" value="submit" onclick="multiply()" >
+      <p id="answer2"></p>
+
+    </div>
+
+    <h2>Problem 3</h2>
+    <div class="problemForm" >
+      <label>Enter String:</label>
+      <br>
+      <input type="text" name="stringCapitalize" id="stringCapitalize"  >
+      <br>
+
+      <input type="submit" value="submit" onclick="capitalize()" >
+      <p id="answer3"></p>
+
+    </div>     <h2>Problem 4</h2>
+    <div class="problemForm" >
+      <label>Enter String:</label>
+      <br>
+      <input type="text" name="stringLastLetter" id="stringLastLetter"  >
+      <br>
+
+      <input type="submit" value="submit" onclick="lastLetter()" >
+      <p id="answer4"></p>
+
+    </div> 
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
